@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Slidefolio</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Add custom CSS here -->
+    <link href="css/slidefolio.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text"> <img style="width: 128px; height: 128px;" class="img-rounded"
+          alt="PP"
+          src="../slidefolio/img/at.jpg">
+        <h2><em>Çağıl Benibol<br>
+          </em></h2>
+        <ul class="list-inline">
+          <li><br>
+          </li>
+        </ul>
+        <br>
+        <a href="#about" class="btn btn-top">Learn More</a> </div>
+    </div>
+    <!-- /Header Area -->
+    <div id="nav">
+      <!-- Navigation -->
+      <nav class="navbar navbar-new" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header"> <button type="button" class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#mobilemenu">
+              <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span> <span class="icon-bar"></span> </button><a
+              href="#"
+              class="navbar-brand"><img
+                style="width: 39px; height: 39px;"
+                class="img-rounded"
+                alt="PP"
+                src="../slidefolio/img/at.jpg">
+              Çağıl Benibol</a> </div>
+          <div class="collapse navbar-collapse" id="mobilemenu">
+            <ul class="nav navbar-nav navbar-right text-center">
+              <li><a href="#top"><i class="service-icon fa fa-home"></i>&nbsp;Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">&nbsp;Interests</a></li>
+              <li><a href="#portfolio">&nbsp;Works</a></li>
+              <li><a href="#contact"><i class="service-icon fa fa-envelope"></i>&nbsp;Contact</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse --> </div>
+      </nav>
+      <!-- /Navigation --> </div>
+    <!-- About -->
+    <div id="about" class="about_us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>About Me</h2>
+            <p class="lead">I'm a undergraduate physics student in Middle East
+              Technical University that locates in Ankara (The capitol city of
+              Turkey), from İzmir (a western coastal city of Turkey). I always
+              have curiosity inside me. What excites me about science is seeking
+              for logical fundamental answers. That needs years of collaboration
+              with history and international work. Hence, it makes me think
+              myself as a citizen of earth. We can live without borders as John
+              Lennon told us in his song "Imagine". We can summarize our
+              existence with Richard Feynman's words:</p>
+            <h1 class="quoteText">“I... a universe of atoms, an atom in the
+              universe.”</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /About -->
+    <!-- Services -->
+    <div id="services" class="services">
+      <div class="container">
+        <h2 style="text-align: center;">My Field of Interests</h2>
+        <hr>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="service-item"> <img id="uid_dimg_0" src="data:image/jpeg;base64,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"
+                data-deferred="1"
+                class="_WCg"
+                title="https://plus.google.com/111859952716487912198"
+                alt="soundcloud ile ilgili görsel sonucu"
+                onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)"
+                style="width: 100px; height: 100px; margin-left: 0px; margin-right: 0px; margin-top: 0px;">
+              <h3>Music</h3>
+              <p>I'm not a professional musician. When I find myself in piano I
+                record what I compose or play without any seriousness. That's
+                why it is normal to find dozens of mistakes in them.</p>
+              <p><a href="https://soundcloud.com/universeofatoms">https://soundcloud.com/universeofatoms</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="service-item"><br>
+              <br>
+              <img style="width: 202px; height: 77px;" title="viewbug" alt="" src="file:///Users/cagilbenibol/Desktop/odtu%CC%88/untitled%20folder/slidefolio/img/logo_transparent.png"><br>
+              <h3>Photography </h3>
+              <p>My photography interest is mostly exist of landscape/nature
+                photography and astrophotography (which I'm newly learning) .</p>
+              <p><a href="https://www.viewbug.com/member/UniverseOfAtoms">https://www.viewbug.com/member/UniverseOfAtoms</a></p>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="service-item"> <img class="irc_mi" src="http://www.saul.com/sites/default/files/article_icon_0.png"
+                onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)"
+                style="margin-top: 0px; width: 117px; height: 117px;"
+                alt="article icon ile ilgili görsel sonucu">
+              <h3>Popular Science&nbsp; Articles</h3>
+              Sometimes I write popular science articles in Evrim Ağacı (in
+              English "Evolution Tree" which is a big popular science web site
+              with huge amounts of articles in Turkey) and&nbsp; in gokyuzu.org
+              (METU Amateur Astronomy Society's Web page). </div>
+          </div>
+        </div>
+        <br>
+        <div class="row"><br>
+        </div>
+      </div>
+    </div>
+    <!-- /Services -->
+    <!-- Portfolio -->
+    <div id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row push50">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>My Works</h2>
+            <p>Under Construction</p>
+            <p><br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Portfolio -->
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Contact With Me</h2>
+            <h2></h2>
+            <hr>
+            <h3>e-mail: </h3>
+            <p><a href="mailto:cagil.benibol@metu.edu.tr">cagil.benibol@metu.edu.tr</a></p>
+            <p><a href="mailto:cagil.benibol@gmail.com">cagil.benibol@gmail.com</a></p>
+            <h3>Facebook:</h3>
+            /nonmantus<br>
+            <h3>Viewbug:</h3>
+            <a href="https://www.viewbug.com/member/UniverseOfAtoms">/UniverseOfAtoms</a><span
+              style="color: #428bca;"></span><br>
+            <h3>SoundCloud</h3>
+            <p><a href="https://soundcloud.com/universeofatoms">/universeofatoms</a></p>
+            <h3>Spotify:</h3>
+            /nonmantus </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Contact -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h2>Thank You</h2>
+            <em>Copyright © Cagil Benibol 2017</em> </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-scrolltofixed-min.js"></script>
+    <script src="js/jquery.vegas.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- Slideshow Background  -->
+$.vegas('slideshow', {
+  delay:5000,
+  backgrounds:[
+{ src:'./img/devrim.jpg', fade:2000 },
+	 { src:'./img/eymir1.jpg', fade:2000 },
+    { src:'./img/kkuyu.jpg', fade:2000 },
+	 { src:'./img/trail.jpg', fade:2000 },
+    { src:'./img/beypazari.jpg', fade:2000 },
+    { src:'./img/wtown.jpg', fade:2000 },
+	 { src:'./img/ist.jpg', fade:2000 },
+	   { src:'./img/forest.jpg', fade:2000 }
+	   
+  ]
+      }
+
+    <!-- /Slideshow Background -->
+    <!-- Mixitup : Grid -->
+    <script>
+		$(function(){
+    $('#Grid').mixitup();
+      });
+    </script>
+    <!-- /Mixitup : Grid -->
+    <!-- Custom JavaScript for Smooth Scrolling - Put in a custom JavaScript file to clean this up -->
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+    <!-- Navbar -->
+    <script type="text/javascript">
+$(document).ready(function() {
+        $('#nav').scrollToFixed();
+  });
+    </script>
+    <!-- /Navbar-->
+    
+  </body>
+</html>
